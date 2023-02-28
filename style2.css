@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.container{
+    margin: 0 10%;
+}
+
+header{
+   
+    background-color: #f9e656;
+}
+.navbar{
+    height: 10%;
+    display:flex;
+    align-items: center;
+}
+
+.form-1{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-details{
+    flex: 1;
+}
+
+.right-details{
+    flex: 1;
+}
+
+.form-1 h2{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.form-1 label{
+    font-size: 0.9rem;
+}
+.form-1 input{
+    margin:10px 0;
+    width: 80%;
+    height: 5%;
+}
+
+.form-1 textarea{
+    margin:10px 0;
+    height: 8%;
+    width: 80%;
+}
+
+.form-1 textarea::placeholder{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.form-1 input::placeholder{
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+
+.btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 1rem;
+    border: 1px solid #1e1e1e;
+    background-color: #f9e656;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin:10px 0;
+}
+
+.add{
+    width: 80%;
+    font-size: 0.9rem;
+    border: none;
+    color: rgb(0, 140, 255);
+    background-color: white;
+}
+
+
+.submit .btn{
+   
+    width: 50% ;
+    height: 5%;
+    border-radius: 20px;
+}
